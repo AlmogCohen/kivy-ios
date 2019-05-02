@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+kivy = "*"
+music21 = "*"
+
+[packages]
+pbxproj = "==2.5.1"
+requests = ">=2.13"
+cython = "==0.28"
+
+[requires]
+python_version = "2.7"
